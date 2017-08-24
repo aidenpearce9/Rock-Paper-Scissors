@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight:700|Zilla+Slab:700');
+body {
+  background-image: url('../img/background.png');
+  background-position: center;
+  background-size: cover;
+  margin: 0px;
+}
+.red-background {
+  height: 100vh;
+  width: 2000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  background-image: url('../img/red.png');
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  flex-direction: column;
+}
+.black-background {
+  height: 100vh;
+  width: 1000px;
+  margin: 0 auto;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.highlight {
+  font-family: 'Zilla Slab Highlight';
+}
+.slab {
+  font-family: 'Zilla Slab';
+}
+h1 {
+  background-color: #EA0006;
+  width: 600px;
+  text-align: center;
+  border-radius: 25px;
+  border: 3px solid #fff;
+  box-shadow: 0px 0px 15px #fff;
+  font-size: 120px;
+  color: #000;
+  padding: 10px 0px;
+}
+.p-tag {
+  font-size: 50px;
+  text-align: center;
+  color: #000;
+  background-color: #f00;
+  width: 900px;
+  /*border: 3px solid #fff;*/
+  border-radius: 25px;
+  /*box-shadow: 0px 0px 15px #fff;*/
+  padding: 10px 0px;
+}
+.who-wins {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 100px;
+  margin-right: 70px;
+  color: #fff;
+}
+.word-bubble {
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  width: 1000px;
+}
+#draw {
+  color: #00f;
+}
+#win {
+  color: #0f0;
+}
+#lose {
+  color: #f00;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+.rock {
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  background-image: url('../img/rock.png');
+  height: 300px;
+  width: 398px;
+  visibility: visible;
+  margin-top: 80px;
+}
+.paper {
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  height: 300px;
+  width: 398px;
+  visibility: hidden;
+}
+.scissors {
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  height: 300px;
+  width: 398px;
+  visibility: hidden;
+}
+.inner-box {
+  padding-top: 50px;
+  visibility: visible;
+}
+#rock {
+  font-size: 35px;
+  font-weight: bold;
+  transform: rotate(18deg);
+  color: #f00;
+  margin-bottom: 32px;
+  display: block;
+}
+#paper {
+  font-size: 35px;
+  font-weight: bold;
+  color: #fff;
+  transform: rotate(4deg);
+  margin-bottom: 35px;
+  margin-right: 30px;
+}
+#scissors {
+  font-size: 33px;
+  font-weight: bold;
+  transform: rotate(-15deg);
+  margin-right: 40px;
+  color: #fff;
+}
+#rock:hover, #paper:hover, #scissors:hover {
+  cursor: pointer;
+}
+.joker {
+  background-image: url('../img/joker.gif');
+  background-position: center;
+  background-size: cover;
+  height: 450px;
+  width: 450px;
+}
