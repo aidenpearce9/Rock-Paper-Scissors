@@ -51,9 +51,7 @@ h1 {
   color: #000;
   background-color: #f00;
   width: 70%;
-  /*border: 3px solid #fff;*/
   border-radius: 25px;
-  /*box-shadow: 0px 0px 15px #fff;*/
   padding: 10px 0px;
 }
 .who-wins {
@@ -145,4 +143,32 @@ h1 {
   background-size: cover;
   height: 250px;
   width: 250px;
+}
+@media only screen and (max-width: 700px) {
+  html {
+    overflow-x: hidden;
+  }
+  .red-background {
+    width: 100vw;
+  }
+  .black-background {
+    width: 100vw;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  .p-tag {
+    font-size: 20px;
+  }
+  .joker {
+    height: 200px;
+    width: 200px;
+  }
+  .who-wins {
+    margin-top: 50px;
+  }
+  .word-bubble {
+    width: 420px;
+    height: 170px;
+  }
 }
