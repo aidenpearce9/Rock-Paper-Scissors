@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight:700|Zilla+Slab:700');
+html {
+  overflow-x: hidden;
+}
 body {
   background-image: url('../img/background.png');
   background-position: center;
@@ -139,10 +142,29 @@ h1 {
 .joker {
   background-image: url('../img/joker.gif');
   background-position: center;
-
   background-size: cover;
   height: 250px;
   width: 250px;
+}
+.joker-box {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translate(0, -50%);
+  transition: 0.25s all;
+  z-index: 10;
+}
+.jokerpic {
+   width: 100%;
+}
+.hide-joker {
+  transform: translate(100%, -50%);
+}
+.done-joker {
+  transform: translate(-100%, -50%);
+}
+.no-transition {
+  transition: 0s all;
 }
 @media only screen and (max-width: 700px) {
   html {
