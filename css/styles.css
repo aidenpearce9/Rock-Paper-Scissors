@@ -171,9 +171,10 @@ h1 {
 .no-transition {
   transition: 0s all;
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 600px) {
   html {
     overflow-x: hidden;
+    overflow-y: hidden;
   }
   body {
     width: 100vw;
@@ -184,6 +185,9 @@ h1 {
   }
   .black-background {
     width: 100vw;
+  }
+  .jokerpic {
+     width: 0px;
   }
   h1 {
     font-size: 30px;
