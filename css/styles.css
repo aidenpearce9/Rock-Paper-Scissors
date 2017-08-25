@@ -179,12 +179,18 @@ h1 {
   body {
     width: 100vw;
     height: 100vh;
+    margin: 0;
+    padding: 0;
   }
   .red-background {
     width: 100vw;
+    margin: 0;
+    padding: 0;
   }
   .black-background {
     width: 100vw;
+    margin: 0;
+    padding: 0;
   }
   .jokerpic {
      width: 0px;
