@@ -139,6 +139,11 @@ h1 {
 #rock:hover, #paper:hover, #scissors:hover {
   cursor: pointer;
 }
+.invisible {
+  visibility: hidden;
+  height: 0px;
+  width: 0px;
+}
 .joker {
   background-image: url('../img/joker.gif');
   background-position: center;
